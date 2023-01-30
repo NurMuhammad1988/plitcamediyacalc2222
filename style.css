@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/* header startttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt */
+
+
+header {
+    background-image: url(./victor-garcia-1263465-unsplash.jpg);
+    background-size: cover;
+
+}
+
+
+.head1 {
+    width: auto;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    background-color: rgba(0, 0, 0, .5);
+    flex-wrap: wrap;
+
+}
+
+
+header .head1 .logo {
+    padding-top: 23px;
+}
+
+
+header .head1 .logo h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+
+header .head1 .logo h3 b {
+    color: #B78601;
+}
+
+
+header .head1 nav {
+
+    display: flex;
+    padding-top: 21px;
+    flex-wrap: wrap;
+}
+
+
+header .head1 nav a {
+
+    margin-left: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+
+.head2 {
+    width: auto;
+    height: auto;
+    background-color: rgba(0, 0, 0, .5);
+    padding-bottom: 36px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 284px;
+    flex-wrap: wrap;
+}
+
+
+header .head2 h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 59px;
+    color: #FFFFFF;
+    padding-bottom: 29px;
+}
+
+
+header .head2 h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+    color: #B78601;
+    padding-bottom: 29px;
+}
+
+
+header .head2 p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding-bottom: 62px;
+}
+
+
+header .head2 button {
+    width: 244px;
+    height: 59px;
+    background-color: rgba(0, 0, 0, .100);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    border-radius: 20px;
+    border-color: white;
+}
+
+
+header .head2 button a {
+    color: white;
+}
+
+
+/* header finishhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
+
+
+/* main startttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt */
+menu .main1 {
+    width: 257px;
+    height: 30px;
+    padding-top: 140px;
+    padding-bottom: 82px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+menu .main1 h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #565656;
+}
+
+
+menu .main11 {
+    width: 1600px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+
+menu .main11 .qqq {
+    width: calc(100% / 12 * 4);
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 35px;
+}
+
+
+menu .main11 .qqq img {
+
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+
+menu .menufooter1 {
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background: #181818;
+
+}
+
+
+menu .menufooter1 h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding-left: 130px;
+}
+
+
+menu .menufooter2 {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap: wrap;
+    background: #181818;
+}
+
+
+menu .menufoot {
+    width: 400px;
+    height: 450px;
+    margin: auto;
+    text-align: center;
+
+}
+
+
+menu .menufoot img {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: auto;
+}
+
+
+menu .menufoot h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding: 27px 0 24px;
+}
+
+
+menu .menufoot p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+
+menu .menufooter3 {
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background: #E5E5E5;
+}
+
+
+menu .menufooter3 h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    padding-left: 35px;
+}
+
+
+menu .menufooter4 {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap: wrap;
+    background: #E5E5E5;
+
+}
+
+
+menu .menufoot4 img {
+    width: 350px;
+    height: 370px;
+
+}
+
+
+menu .menufooter5 {
+    width: 350px;
+    height: 150px;
+    background: #181818;
+    text-align: center;
+
+}
+
+
+menu .menufooter4 .menufooter5 h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 15px 0px 12px;
+    color: #FFFFFF;
+}
+
+
+menu .menufooter4 .menufooter5 p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+
+}
+
+
+/* ????????????????????????????????????????????????????????????????????????????????????? */
